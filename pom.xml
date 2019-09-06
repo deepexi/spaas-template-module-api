@@ -24,6 +24,14 @@
     </licenses>
 
     <developers>
+		<developer>
+            <id>chenling</id>
+            <name>chenling</name>
+            <email>chenling@deepexi.com</email>
+            <url>https://github.com/deepexi</url>
+            <organization>www.deepexi.com</organization>
+            <organizationUrl>http://www.deepexi.com/</organizationUrl>
+        </developer>
         <developer>
             <id>huangzhihai</id>
             <name>huangzhihai</name>
@@ -116,5 +124,17 @@
 			<id>oss</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
+		<!-- deepexi repository
+		<snapshotRepository>
+            <id>depick</id>
+            <name>User Project SNAPSHOTS</name>
+            <url>http://nexus.deepexi.top/repository/maven-snapshots/</url>
+        </snapshotRepository>
+		<repository>
+            <id>depick</id>
+            <name>User Project Release</name>
+            <url>http://nexus.deepexi.top/repository/maven-releases/</url>
+        </repository>
+		-->
 	</distributionManagement>
 </project>
